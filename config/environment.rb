@@ -16,4 +16,4 @@ ActiveRecord::Base.establish_connection(
   :database => "db/artists.sqlite"
 )
 
-require "../artist.rb"
+require "artist"
