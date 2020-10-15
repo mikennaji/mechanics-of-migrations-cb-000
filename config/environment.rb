@@ -14,13 +14,13 @@ ActiveRecord::Base.establish_connection(
   :adapter => "sqlite3",
   :database => "db/artists.sqlite"
 )
-sql = <<-SQL 
+sql = <<-SQL
   CREATE TABLE IF NOT EXISTS(
     id INTEGER PRIMARY KEY,
     name TEXT,
     genre TEXT,
     age INTEGER,
-    hometown TEXT 
+    hometown TEXT
   )
   SQL
 
